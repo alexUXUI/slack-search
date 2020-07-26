@@ -1,0 +1,33 @@
+$slack-purple: #4a154b;
+
+.search__wrapper {
+    width: 100%;
+    background-color: $slack-purple;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.search__wrapper .search {
+    width: 300px;
+}
+
+.search__wrapper .search-result {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search__wrapper .search-result {
+    .content {
+        &--left {
+            width: 30%;
+        }
+
+        &--right {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+    }   
+}
